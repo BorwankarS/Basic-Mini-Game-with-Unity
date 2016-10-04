@@ -1,0 +1,70 @@
+Initialize engine version: 5.4.0f3 (a6d8d714de6f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 525M (ID=0xdf5)
+    Vendor:   NVIDIA
+    VRAM:     978 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.381 seconds
+Platform assembly: C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 9.792125 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1958 -> priority: 1 
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 27.656298 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 284.
+Total: 0.509865 ms (FindLiveObjects: 0.046388 ms CreateObjectMapping: 0.045567 ms MarkObjects: 0.399435 ms  DeleteObjects: 0.017652 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.754971 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 284.
+Total: 0.559948 ms (FindLiveObjects: 0.054188 ms CreateObjectMapping: 0.036536 ms MarkObjects: 0.448287 ms  DeleteObjects: 0.019704 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.619089 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 284.
+Total: 0.725798 ms (FindLiveObjects: 0.054188 ms CreateObjectMapping: 0.037357 ms MarkObjects: 0.610853 ms  DeleteObjects: 0.021757 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.500449 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 284.
+Total: 0.524644 ms (FindLiveObjects: 0.046388 ms CreateObjectMapping: 0.037357 ms MarkObjects: 0.421603 ms  DeleteObjects: 0.017652 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.321052 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 284.
+Total: 0.555843 ms (FindLiveObjects: 0.053778 ms CreateObjectMapping: 0.037767 ms MarkObjects: 0.443771 ms  DeleteObjects: 0.019294 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.524233 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 284.
+Total: 0.294753 ms (FindLiveObjects: 0.053778 ms CreateObjectMapping: 0.038178 ms MarkObjects: 0.194175 ms  DeleteObjects: 0.007389 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.440102 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 284.
+Total: 0.561590 ms (FindLiveObjects: 0.052546 ms CreateObjectMapping: 0.036946 ms MarkObjects: 0.451571 ms  DeleteObjects: 0.018473 ms)
+
