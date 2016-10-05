@@ -20,19 +20,12 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
 	
 	}*/
-    /*IEnumerator waitFor()
-    {
-        yield return new WaitForSeconds(5);
-    }*/
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         count = 0;
         ruleText.text = "Collect 15 tokens to win and Avoid the black sphere";
         SetCountText();
-        /*int timer =10000;
-        while (timer >= 0)
-            timer--;*/
         ruleText.text = "";
         winText.text = "";
     }
@@ -61,6 +54,7 @@ public class PlayerController : MonoBehaviour {
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
+        //Winning Condition
         if (count == 15)
         {
             winText.text = "You Win!";       
@@ -71,7 +65,7 @@ public class PlayerController : MonoBehaviour {
             
         }
     }
-
+    // Restart the scene
     public void restartCurrentScene()
     {
         int scene = SceneManager.GetActiveScene().buildIndex;

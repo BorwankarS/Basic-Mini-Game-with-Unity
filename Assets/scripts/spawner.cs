@@ -12,6 +12,7 @@ public class spawner : MonoBehaviour {
     public float spawnWait;
     public int startWait;
     public bool stop;
+    public int no_of_objects=0;
     // Use this for initialization
     void Start () {
         StartCoroutine(waitSpawner());
@@ -31,6 +32,7 @@ public class spawner : MonoBehaviour {
             //Vector3 spawnPos = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), y, Random.Range(-spawnValues.z, spawnValues.z));
             //Random.Range(-spawnValues.x, spawnValues.x), y, Random.Range(-spawnValues.z, spawnValues.z)
             Instantiate(enemyPrefab, spawnPos + transform.TransformPoint(0,0,0), gameObject.transform.rotation);
+            no_of_objects = no_of_objects + 2;
             yield return new WaitForSeconds(spawnWait);
         }
     }
