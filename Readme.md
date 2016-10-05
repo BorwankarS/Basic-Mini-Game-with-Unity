@@ -1,6 +1,6 @@
 # Mini-Game with Unity
 
-## This game illustrates the use of basics in unity. The world in the game is created using simple 3D objects in unity. Scripts have attached to a player, enemy and collectable to control the behaviour individual objects.
+## This game illustrates the use of basics in unity. [The world in the game is created using simple 3D objects in unity][1]. Scripts have attached to a player, enemy and collectable to control the behaviour individual objects.
 
 ## Used methods:
 1. Physics
