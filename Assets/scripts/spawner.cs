@@ -27,10 +27,8 @@ public class spawner : MonoBehaviour {
         yield return new WaitForSeconds(startWait);
         while (player!=null)
         {
-            //Vector3 spawnPos = new Vector3(10.0F,0.5F,10.0F);
+            // Instantiate the new object within the field boundary
             Vector3 spawnPos = new Vector3(Random.Range(-19.0F, 19.0F), y, Random.Range(-19.0F, 19.0F));
-            //Vector3 spawnPos = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), y, Random.Range(-spawnValues.z, spawnValues.z));
-            //Random.Range(-spawnValues.x, spawnValues.x), y, Random.Range(-spawnValues.z, spawnValues.z)
             Instantiate(enemyPrefab, spawnPos + transform.TransformPoint(0,0,0), gameObject.transform.rotation);
             no_of_objects = no_of_objects + 2;
             yield return new WaitForSeconds(spawnWait);

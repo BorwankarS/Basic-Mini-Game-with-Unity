@@ -44,6 +44,7 @@ public class PlayerController : MonoBehaviour {
     }
     void OnTriggerEnter(Collider other)
     {
+        //Collect the object and increase the count
         if (other.gameObject.CompareTag("Pick Up"))
         {
             other.gameObject.SetActive(false);
@@ -58,16 +59,19 @@ public class PlayerController : MonoBehaviour {
         if (count == 15)
         {
             winText.text = "You Win!";       
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
             enemy.SetActive(false);
             Destroy(enemy);
-            restartCurrentScene();
+            StartCoroutine(pause());
+            
             
         }
     }
     // Restart the scene
-    public void restartCurrentScene()
+    IEnumerator pause()
     {
+        yield return new WaitForSeconds(5);
+        ruleText.text = "Restarting the game";
         int scene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }

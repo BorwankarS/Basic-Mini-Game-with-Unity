@@ -14,9 +14,16 @@ public class enemy : MonoBehaviour {
         lostText.text = "";
         enemy_pos = GameObject.FindGameObjectWithTag("Player").transform;
     }
-	
-	// Update is called once per frame
-	void Update () {
+    IEnumerator restartScene()
+    {
+        f_RotSpeed = 0f;
+        f_MoveSpeed = 0f;
+        yield return new WaitForSeconds(5);
+        int scene = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(scene, LoadSceneMode.Single);
+    }
+    // Update is called once per frame
+    void Update () {
         
         if (player!=null)
         {
@@ -32,15 +39,8 @@ public class enemy : MonoBehaviour {
         {
             other.gameObject.SetActive(false);
             lostText.text = "You Lost The Game!";
-            Destroy(other.gameObject);
-            restartCurrentScene();
-
+            StartCoroutine(restartScene());
         }
 
-    }
-    public void restartCurrentScene()
-    {
-        int scene = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(scene, LoadSceneMode.Single);
     }
 }
