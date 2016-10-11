@@ -16,19 +16,13 @@ Platform assembly: C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game
 Loading C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.068 seconds
+- Completed reload, in  0.052 seconds
 Platform assembly: C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\GAURAV\Documents\CS185C Assignment 3\Build\mini-game_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.855526 ms
+UnloadTime: 1.067355 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 30f8 -> priority: 1 
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 20.352825 ms
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 284.
-Total: 0.584582 ms (FindLiveObjects: 0.053778 ms CreateObjectMapping: 0.043104 ms MarkObjects: 0.465531 ms  DeleteObjects: 0.020526 ms)
-
+  Thread -> id: 343c -> priority: 1 

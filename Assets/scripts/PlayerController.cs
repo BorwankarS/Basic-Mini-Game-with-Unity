@@ -29,6 +29,13 @@ public class PlayerController : MonoBehaviour {
         ruleText.text = "";
         winText.text = "";
     }
+    void Update()
+    {
+        // Exit the game
+        if (Input.GetKey("escape"))
+            Application.Quit();
+
+    }
     void FixedUpdate()
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
